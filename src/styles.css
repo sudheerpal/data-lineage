@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.layer {
+  display: flex;
+  flex-direction: column;
+}
+
+.layer-item {
+  margin: 10px 0px 10px 0;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+.btn {
+  padding: 7px;
+  border-radius: 8px;
+}
